@@ -1,0 +1,34 @@
+.dashboard {
+  display: flex;
+  margin-top: 3.125rem;
+  flex-wrap: wrap;
+  .sideBard {
+    text-align: center;
+    padding: 1rem;
+    max-width: 28.125rem;
+    button {
+      margin: 1rem;
+    }
+    
+  }
+  .sideBardHide {
+    display: none;
+  }
+
+  .users-container {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .card {
+      min-width: 18.75rem;
+      margin-bottom: 1.875rem;
+
+      &:hover {
+        transform: scale(1.05);
+      }
+    }
+  }
+}

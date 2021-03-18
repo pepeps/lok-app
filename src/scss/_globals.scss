@@ -1,0 +1,39 @@
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a,
+a:visited,
+a:hover {
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.3;
+  font-family: 'Roboto', sans-serif;
+}
+
+.w100 {
+  max-width: 100%;
+}
+
+
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 18.75rem;
+  a {
+    margin: 1rem;
+  }
+}
